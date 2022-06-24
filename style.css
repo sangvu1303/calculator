@@ -124,8 +124,6 @@ body.light .calculator span i {
 
 .calculator span.clear,
 body.light .calculator .clear {
-    grid-column: span 2;
-    width: 180px;
     background: #f00;
 }
 .calculator span.clear::before,
@@ -135,10 +133,7 @@ body.light .calculator .clear::before{
     border-top: 1px solid #fff4;
     border-bottom: #fff4;
 }
-.calculator span.plus {
-    grid-row: span 2;
-    height: 180px;
-}
+
 .calculator span.equal,
 body.light .calculator .equal {
    background: #2196f3;
@@ -156,10 +151,10 @@ body.light .calculator span:active {
 }
 .btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
+    top: 10px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
     background: #333;
     font-size: 1.5em;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
